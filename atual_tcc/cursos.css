@@ -77,8 +77,8 @@ main {
     
 }
 .esquerda {
-    margin-top: 40px;
-    padding-left: 20px;
+    margin-top: 100px;
+    padding-left: 5rem;
 }
 .esquerda h1 {
     color: #ffffff;
@@ -89,16 +89,21 @@ main {
 }
 .esquerda input {
     border: white 1px solid;
-    border-radius: 25px;
-    width: 150px;
+    border-radius: 25px 0 0 25px;
+    width: 60px;
     height: 15px;
 }
 .esquerda .enviar {
-    width: 70px;
+    width: 60px ;
     height: 30px;
+    border-radius: 0 25px 25px 0;
+    border: 1px solid white;
+    background-color: white;
+    transform: translateX(-5px);
+    cursor: pointer;
 }
 .esquerda .btn {
-    width: 200px;
+    width: 120px;
     height: 30px;
 }
 .esquerda div h1 {
@@ -120,12 +125,12 @@ main {
     display: flex;
 }
 .container .direita {
-    margin-top: 3rem;
-    margin-left: 13rem;
+    margin-top: 100px;
+    margin-left: 15rem;
     font-size: 10px
 }
 .container h1 {
-    font-weight: 100;
+    font-weight: 900;
     position: relative;
     right: 2rem;
     top: -1rem;
@@ -143,14 +148,16 @@ main {
 
     justify-content: space-between;
     flex-direction: column;
-    margin-bottom: 5%;
+    margin-bottom: 2%; 
 
 
 
    
 }
-.linha h1 {
+.linha h2 {
     margin-bottom: 2rem;
+    font-size: 20px;
+    margin-left: 2rem;
 }
 
 .boxes{
@@ -158,16 +165,19 @@ main {
     display: flex;
 
     justify-content: space-between;
+    
 
 
 }
 .box{
     background-color: rgb(131, 131, 131);
-    width: 30%;
-    padding: 2em 3rem;
+    width: 40%;
+    padding: 2rem 3rem;
     border-radius: 10px;
     margin-left: 2rem;
     position: relative;
+    box-shadow: -20px 18px 20px 0px rgba(0,0,0,0.4);
+    margin-bottom: 2rem;
 
 /*     padding: 4rem 4rem;
     margin-bottom: 2rem;
@@ -183,6 +193,10 @@ main {
     position: absolute;
     right: .5rem;
     bottom: .5rem;
+}
+.box div a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 @media screen and (max-width: 700px) {

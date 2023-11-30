@@ -108,22 +108,24 @@ h1 {
 
 .imagem {
   width: 40%;
+  margin-left: 10rem;
 }
 
 .segundo {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 3rem;
+  gap: 1rem;
   padding-top: 2rem;
   padding-bottom: 10rem ;
-  border-top: 1px solid white;
+  border-top: 3px solid white;
   background-color: #FF9800;
   color: rgb(245, 224, 224);
   width: 100%;
   height: 70vh;
   margin-top: 1rem;
   letter-spacing: 0.1rem;
+  border: 3px solid white;
 }
 
 h3 {
@@ -133,40 +135,46 @@ h3 {
 }
 
 .segundo h1 {
- width: 100vw;
- margin: 0.5rem;
+  font-size: 45px;
+  width: 100vw;
+  margin-bottom: 3rem;
+
 }
 
 .Santander {
   width: 30%;
- 
   color: rgb(255, 255, 255);
   text-align: justify;
   border-radius: 15px;
   font-size: 15px;
-
+  border-right: 2px solid rgba(27, 27, 27, 0.733);
+  border-bottom: 2px solid rgba(27, 27, 27, 0.733);
+  background-color: #1e4957;
+  padding: 0.8rem;
 }
-
-
 
 .Localiza {
   width: 30%;
-  
   color: rgb(255, 255, 255);
   text-align: justify;
   border-radius: 15px;
   font-size: 15px;
- 
+  border-right: 2px solid rgba(27, 27, 27, 0.733);
+  border-bottom: 2px solid rgba(27, 27, 27, 0.733);
+  background-color: #1e4957;
+  padding: 0.8em;
 }
 
 .Tovths {
   width: 30%;
-
   color: rgb(255, 255, 255);
   text-align: justify;
   border-radius: 15px;
   font-size: 15px;
-
+  border-right: 2px solid rgba(27, 27, 27, 0.733);
+  border-bottom: 2px solid rgba(27, 27, 27, 0.733);
+  background-color: #1e4957;
+  padding: 0.8rem;
 }
 
 
@@ -182,7 +190,7 @@ h3 {
 
 
 .comb {
-  border-top: 1px solid white;
+  border-top: 3px solid white;
     background-color: #FF9800;
     width: 100%;
     padding-bottom: 3rem;
@@ -282,7 +290,7 @@ h3 {
 
 .equipe {
     display: flex;
-    gap: 1rem;
+    gap: 4rem;
     justify-content: center;
 }
 .equipe div {
@@ -295,6 +303,14 @@ h3 {
     margin-bottom: 1rem;
 }
 
+.titulo {
+  font-size: 40px;
+}
+
+h4 {
+  color: #ffffff;
+  font-weight: 300;
+}
 
 
 
