@@ -1,6 +1,68 @@
-//modal aba cursos
+//ABA CURSOS 
 
-//carrossel aba sobre
+//Modal/pop-up
+function openPopup() {
+    document.getElementById('popup-container').style.display = 'block';
+    document.getElementById('overlay').style.display = 'block';
+}
+
+function closePopup() {
+    document.getElementById('popup-container').style.display = 'none';
+    document.getElementById('overlay').style.display = 'none';
+}
+
+//Carrossel
+function direcao(e, vestibular){
+    
+    var move = document.querySelector("#" + vestibular);
+    if(e == 1 || e == 3){
+        //esquerda
+       move.scrollLeft -= 200;
+       
+    } else if(e == 2 || e == 4){
+        //direita
+        move.scrollLeft += 200;
+        }
+}
+function direcao(e, tec){
+    
+    var move = document.querySelector("#" + tec);
+    if(e == 1 || e == 3){
+        //esquerda
+       move.scrollLeft -= 200;
+       
+    } else if(e == 2 || e == 4){
+        //direita
+        move.scrollLeft += 200;
+        }
+}
+function direcao(e, prof){
+    
+    var move = document.querySelector("#" + prof);
+    if(e == 1 || e == 3){
+        //esquerda
+       move.scrollLeft -= 200;
+       
+    } else if(e == 2 || e == 4){
+        //direita
+        move.scrollLeft += 200;
+        }
+} 
+function direcao(e, bootcamp){
+    
+    var move = document.querySelector("#" + bootcamp);
+    if(e == 1 || e == 3){
+        //esquerda
+       move.scrollLeft -= 200;
+       
+    } else if(e == 2 || e == 4){
+        //direita
+        move.scrollLeft += 200;
+        }
+}
+//ABA SOBRE
+
+//Slide 
 
 //Buscar elementos
 const prev = document.querySelector('#prev');
